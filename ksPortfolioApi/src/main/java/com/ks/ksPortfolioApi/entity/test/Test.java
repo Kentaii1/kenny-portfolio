@@ -4,7 +4,7 @@ import jakarta.persistence.*;
 
 @Entity
 @Table(name = "test", schema="public")
-public class test {
+public class Test {
 	
 	@Id
 	@Column( name="test_val" ) String testVal;
@@ -15,6 +15,10 @@ public class test {
 
 	public void setTestVal(String testVal) {
 		this.testVal = testVal;
+	}
+
+	public String getValue() {
+		return null;
 	}
 
 	
